@@ -3,6 +3,8 @@ body {
     background-color: #000000;
     height: 20px;
     color: #000000;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
 .container {
@@ -48,3 +50,26 @@ footer {
     font-weight: bold;
     border-radius: 20px 20px;
 }
+
+@media (max-width: 768px) { // Para tablets e telas menores
+    .container {
+      max-width: 90%; // Ocupa 90% da largura da tela
+    }
+    .profile-header img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px; 
+    }
+    .profile-header img {
+      width: 100px;
+      height: 100px;
+    }
+    .profile-section h3 {
+      font-size: 1.2rem; 
+    }
+  }
