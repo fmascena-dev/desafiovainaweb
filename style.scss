@@ -1,26 +1,20 @@
-$primary-color: #0074c2;
-$background-color: #000000;
-
 body {
     font-family: sans-serif;
-    background-color: $background-color;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #FFFFFF
+    background-color: #000000;
+    height: 20px;
+    color: #000000;
 }
 
 .container {
-    max-width: 800px;
+    width: 1000px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f30606;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 20px 20px;
 }
 
 .profile-header {
-    text-align: center;
+    text-align: left;
 }
 
 img {
@@ -36,7 +30,7 @@ img {
 }
 
 h3 {
-    color: $primary-color;
+    color: #f30606;
     margin-bottom: 10px;
 }
 
@@ -46,10 +40,11 @@ ol, ul {
 }
 
 footer {
-    background-color: #f30606;
+    background-color: #ffffff;
     text-align: center;
-    margin-top: auto;
-    padding: 10px;
+    width: 1000px;
+    margin: 5px auto;
+    padding: 20px;
     font-weight: bold;
     border-radius: 20px 20px;
 }
