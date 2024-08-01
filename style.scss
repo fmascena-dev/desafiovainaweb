@@ -51,9 +51,9 @@ footer {
     border-radius: 20px 20px;
 }
 
-@media (max-width: 768px) { // Para tablets e telas menores
+@media (max-width: 768px) { 
     .container {
-      max-width: 90%; // Ocupa 90% da largura da tela
+      max-width: 90%; 
     }
     .profile-header img {
       width: 120px;
@@ -61,7 +61,7 @@ footer {
     }
   }
   
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .container {
       padding: 10px; 
     }
